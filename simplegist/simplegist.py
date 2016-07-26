@@ -1,11 +1,11 @@
 import requests
 import json
 
-from config import USERNAME, API_TOKEN
+from .config import USERNAME, API_TOKEN
 
-from mygist import Mygist
-from do import Do
-from comments import Comments
+from .mygist import Mygist
+from .do import Do
+from .comments import Comments
 
 BASE_URL = 'https://api.github.com'
 Link_URL = 'https://gist.github.com'
